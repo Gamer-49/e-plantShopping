@@ -312,7 +312,7 @@ function ProductList({ onHomeClick }) {
                 <div className="product-grid">
                     {plantsArray.map((cat, index) => (
                         <div key={index}>
-                            <h1><div>{cat.category}</div></h1>
+                            <h1 className="luxury"><div>{cat.category}</div></h1>
                             <div className='product-list'>
                                 {cat.plants.map((plant, plantIndex) => (
                                     <div className='product-card' key={plantIndex}>
